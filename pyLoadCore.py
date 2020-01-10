@@ -492,7 +492,7 @@ class Core(object):
         self.log.info(_("Activating Accounts..."))
         self.accountManager.getAccountInfos()
 
-        self.threadManager.pause = False
+        #self.threadManager.pause = False
         self.running = True
 
         self.log.info(_("Activating Plugins..."))
